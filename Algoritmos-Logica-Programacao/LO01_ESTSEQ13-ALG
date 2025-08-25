@@ -1,0 +1,11 @@
+Receba a quantidade de alimento em quilos. Calcule e mostre quantos dias durará esse alimento sabendo que a pessoa consome 50g ao dia.
+
+
+Declarar
+    alimentosQuilos,alimentosGramas, alimentoDuracao: float; 
+Inicio
+    Ler alimentosQuilos;
+    alimentosGramas = (alimentosQuilos*1000);
+    alimentoDuracao = (alimentosGramas/50);
+    Mostrar alimentoDuracao;
+Fim

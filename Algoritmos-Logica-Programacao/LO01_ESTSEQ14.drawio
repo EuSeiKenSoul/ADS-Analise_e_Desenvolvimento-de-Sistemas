@@ -1,0 +1,58 @@
+<mxfile host="65bd71144e">
+    <diagram id="JpOpN65DzJmQNLFtFOPg" name="Page-1">
+        <mxGraphModel dx="1523" dy="267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="LO01_ESTSEQ13" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-325" y="190" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="anguloUm, anguloDois, anguloTres: float;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-370" y="290" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="anguloUm, anguloDois" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-375" y="370" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;anguloTres = 180-(anguloUm+anguloDois);&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-440" y="450" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="anguloTres" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-325" y="530" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Teste de Mesa" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="5" y="160" width="370" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Massa de Dados&lt;br&gt;35, 55" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="11">
+                    <mxGeometry x="10" y="400" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Saida&lt;br&gt;90.0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="11">
+                    <mxGeometry x="190" y="400" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="anguloDois=55" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="11">
+                    <mxGeometry x="10" y="130" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="AnguloTres=90.0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="11">
+                    <mxGeometry x="10" y="200" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="anguloUm=35" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="15" y="220" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="FluxoGrama" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-450" y="160" width="370" height="480" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
