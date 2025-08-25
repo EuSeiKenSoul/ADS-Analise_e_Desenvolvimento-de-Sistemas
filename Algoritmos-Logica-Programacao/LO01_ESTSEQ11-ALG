@@ -1,0 +1,7 @@
+Declarar
+    numRaio, numCircun: float;
+Inicio
+    Ler numRaio;
+    somaNums = (2*3.14*numRaio)
+    Mostrar somaNums
+Fim

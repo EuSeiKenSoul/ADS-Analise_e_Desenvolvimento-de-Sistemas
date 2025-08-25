@@ -1,0 +1,55 @@
+<mxfile host="65bd71144e">
+    <diagram id="73CEmmgFot3V72w3c3n7" name="Page-1">
+        <mxGraphModel dx="1720" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="16" value="Teste de Mesa" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="40" width="370" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Massa de Dados&lt;br&gt;1000" style="rounded=0;whiteSpace=wrap;html=1;" parent="16" vertex="1">
+                    <mxGeometry x="10" y="400" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Saida&lt;br&gt;1013" style="rounded=0;whiteSpace=wrap;html=1;" parent="16" vertex="1">
+                    <mxGeometry x="190" y="400" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="LO01_ESTSEQ08" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="90" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="valorPoup, :valorComRend: num" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" parent="1" source="5" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="valorPoup" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" parent="1" source="7" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="valorComRend = (valorPoup+(valorPoup*0,013)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="350" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="valorComRend" style="shape=display;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="430" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="valorPoup=1000" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="100" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="valorComRend=1013" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="170" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Fluxo Grama" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="105" y="40" width="290" height="480" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

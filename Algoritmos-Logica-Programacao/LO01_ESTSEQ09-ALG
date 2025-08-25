@@ -1,0 +1,7 @@
+Declarar
+    numA, numB, somaQuad: int;
+Inicio
+    Ler numA, numB;
+    somaQuad = (numA**2 + numB**2);
+    Mostrar somaQuad;
+Fim

@@ -1,0 +1,7 @@
+Declarar
+    valorPoup, valorComRend: int;
+Inicio
+    Ler ValorPoup;
+    valorComRend = (valorPoup+(valorPoup*0.013));
+    Mostrar valorComRend;
+Fim

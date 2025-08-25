@@ -1,0 +1,7 @@
+Declarar
+    numA, numB, somaNums: float;
+Inicio
+    Ler numA, numB;
+    somaNums = (numA + numB);
+    Mostrar somaNums
+Fim
