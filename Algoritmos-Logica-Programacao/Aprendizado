@@ -1,1 +1,15 @@
-Criação de pasta e subpasta para organização do meu aprendizado no curso de Analise e Desenvolvimento de Sistemas.
+📂 Estrutura do Repositório
+Os arquivos seguem uma padronização para facilitar a organização e o entendimento:
+
+Formato: LLNN_LLLLLLNN
+(L = Letras | N = Números)
+
+Exemplo: LO01_ESTSEQ01
+
+LO01 → Lote de Exercícios 01
+ESTSEQ → Estrutura Sequencial
+01 → Exercício 01
+📝 Tipos de Arquivos
+ALG → Algoritmos escritos em formato pseudocódigo.
+.drawio → Fluxogramas e testes de mesa.
+.py → Programas funcionais em Python.
