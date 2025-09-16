@@ -1,0 +1,20 @@
+Declarar
+    base, expoente, potencia, i: inteiro;
+Inicio
+    Ler base;
+    Enquanto (base <= 0) faça
+        Ler base;
+    FimEnquanto
+
+    Ler expoente;
+    Enquanto (expoente < 0) faça
+        Ler expoente;
+    FimEnquanto
+
+    potencia = 1;
+    Para i de 1 até expoente faça
+        potencia = potencia * base;
+    FimPara
+
+    Mostrar "O valor da potência de ", base, " elevado a ", expoente, " é: ", potencia;
+Fim

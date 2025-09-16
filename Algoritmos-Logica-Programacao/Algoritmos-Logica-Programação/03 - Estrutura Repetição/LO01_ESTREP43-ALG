@@ -1,0 +1,18 @@
+Declarar
+    anoAtual: inteiro;
+    alturaAna, alturaMaria, taxaCrescimentoAna, taxaCrescimentoMaria: real;
+Inicio
+    anoAtual = 0;
+    alturaAna = 1.10;
+    alturaMaria = 1.50;
+    taxaCrescimentoAna = 0.03;
+    taxaCrescimentoMaria = 0.02;
+
+    Enquanto (alturaAna <= alturaMaria) faça
+        anoAtual = anoAtual + 1;
+        alturaAna = alturaAna + taxaCrescimentoAna;
+        alturaMaria = alturaMaria + taxaCrescimentoMaria;
+    FimEnquanto
+
+    Mostrar "Serão necessários ", anoAtual, " anos para que Ana seja maior que Maria";
+Fim

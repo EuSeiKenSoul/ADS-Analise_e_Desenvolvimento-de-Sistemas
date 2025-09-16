@@ -1,0 +1,15 @@
+Declarar
+    numA, i: inteiro;
+    resultA: real;
+Inicio
+    Ler numA;
+
+    resultA = 1;
+    i = 2
+
+    Enquanto i <= numA faça
+        resultA += resultA + (1 / i);
+    FimEnqaunto
+
+    Mostrar "O resultado da série é: ", resultA;
+Fim

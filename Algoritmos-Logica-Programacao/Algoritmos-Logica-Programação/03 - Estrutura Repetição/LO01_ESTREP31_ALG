@@ -1,0 +1,8 @@
+Declarar
+    numberN, quadrado: int;
+Inicio
+    Para (numberN = 10; numberN <= 150; numberN++) Faça
+        quadrado = numberN * numberN;
+        Escreva("O quadrado de ", {numberN}, " é: ", {quadrado}, "\n");
+    FimPara
+Fim

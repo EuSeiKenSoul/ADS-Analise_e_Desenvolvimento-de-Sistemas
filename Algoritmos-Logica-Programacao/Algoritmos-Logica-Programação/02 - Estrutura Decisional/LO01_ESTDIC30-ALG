@@ -1,0 +1,57 @@
+Declarar
+    diaNasc, mesNasc, anoNasc: inteiro;
+    diaHoje, mesHoje, anoHoje: inteiro;
+    anosDeVida, mesesDeVida, diasDeVida: inteiro;
+    mesAnterior, diasNoMes, anoRef: inteiro;
+Inicio
+    Ler diaNasc;
+    Ler mesNasc;
+    Ler anoNasc;
+
+    Ler diaHoje;
+    Ler mesHoje;
+    Ler anoHoje;
+
+    anosDeVida = anoHoje - anoNasc;
+    mesesDeVida = 0;
+    diasDeVida = 0;
+
+    Se (mesHoje < mesNasc ou (mesHoje = mesNasc e diaHoje < diaNasc)) então
+        anosDeVida = anosDeVida - 1;
+    FimSe
+
+    Se (mesHoje >= mesNasc) então
+        mesesDeVida = mesHoje - mesNasc;
+    Senão
+        mesesDeVida = (12 - mesNasc) + mesHoje;
+    FimSe
+
+    Se (diaHoje < diaNasc) então
+        mesesDeVida = mesesDeVida - 1;
+        mesAnterior = mesHoje - 1;
+        anoRef = anoHoje;
+        Se (mesAnterior = 0) então
+            mesAnterior = 12;
+            anoRef = anoRef - 1;
+        FimSe
+
+        Se (mesAnterior = 1 ou mesAnterior = 3 ou mesAnterior = 5 ou mesAnterior = 7 ou mesAnterior = 8 ou mesAnterior = 10 ou mesAnterior = 12) então
+            diasNoMes = 31;
+        SenãoSe (mesAnterior = 4 ou mesAnterior = 6 ou mesAnterior = 9 ou mesAnterior = 11) então
+            diasNoMes = 30;
+        Senão
+            Se ((anoRef % 400 = 0) ou (anoRef % 4 = 0 e anoRef % 100 <> 0)) então
+                diasNoMes = 29;
+            Senão
+                diasNoMes = 28;
+            FimSe
+        FimSe
+
+        diasDeVida = (diasNoMes - diaNasc) + diaHoje;
+    Senão
+        diasDeVida = diaHoje - diaNasc;
+    FimSe
+
+    Mostrar "A pessoa nasceu em ", diaNasc, "/", mesNasc, "/", anoNasc, " e hoje é ", diaHoje, "/", mesHoje, "/", anoHoje;
+    Mostrar "Idade: ", anosDeVida, " anos, ", mesesDeVida, " meses e ", diasDeVida, " dias";
+Fim

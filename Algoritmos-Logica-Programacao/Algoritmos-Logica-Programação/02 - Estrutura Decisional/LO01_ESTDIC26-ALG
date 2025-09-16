@@ -1,0 +1,20 @@
+Declarar
+    numUm, numDois, numMaior, numMenor : inteiro;
+Inicio
+    Ler numUm;
+    Ler numDois;
+    //DEfinir qual é o número maior
+    se numUm > numDois então
+        numMaior = numUm;
+        numMenor = numDois;
+    senão
+        numMaior = numDois;
+        numMenor = numUm;
+    fimse
+
+    Se (numMaior % numMenor = 0) então
+        Mostrar "o Número {numMaior} é divisivel por {numMenor}";
+    Senão
+        Mostrar "o Número {numMaior} não é divisivel por {numMenor}";
+    FimSe
+Fim

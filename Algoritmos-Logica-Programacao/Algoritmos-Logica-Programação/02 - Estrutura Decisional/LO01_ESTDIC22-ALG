@@ -1,0 +1,14 @@
+Declarar
+    numUm, numDois: inteiro;
+Inicio
+    Ler numUm;
+    Ler numDois;
+
+    Se (numUm < numDois) então
+        Mostrar numUm, ", ", numDois;
+    SenãoSe (numDois < numUm) então
+        Mostrar numDois, ", ", numUm;
+    Senão
+        Mostrar "Nenhum número é maior que o outro, portanto os números são iguais.";
+    FimSe
+Fim

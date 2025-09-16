@@ -1,0 +1,17 @@
+Declarar
+    numVoltas, metrosCircuito, tempoDuracaoMin, veloKMph: inteiro;
+inicio
+    Ler numVoltas;
+    Ler metrosCircuito;
+    Ler tempoDuracaoMin;
+    se (numVoltas <= 0 ou metrosCircuito <= 0 ou tempoDuracao <= 0) então
+        mostrar ('Os valores não podem ser menor ou igual a zero')
+    senão
+        distMetros = numVoltas*metrosCircuito;
+        distKm=distMetros/1000;
+        tempoDuracaoHoras = tempoDuracaomin/60;
+        veloKMph = distKm/ tempoDuracaoHoras;
+        Mostrar ('Velocidade média foi de {veloKMph}KM/h');
+    
+
+fim

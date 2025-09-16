@@ -1,0 +1,29 @@
+#Receba o preço atual e a media mensal de um produto. Calcule e mostre o novo preço, sabendo que:
+
+Declarar
+    mediaProduto, precoAtual, novoPreco: real;
+INICIO
+
+    Ler precoAtual;
+    Ler mediaProduto;
+
+    se (mediaProduto <  500 e precoAtual < 30) então
+        #aumentar em 10%
+        novoPreco = precoAtua * 1,10;
+        mostrar ('o Produto deve receber um aumento de 10% e ter seu preço atualizado para {novoPreco}R$');
+    senãose (mediaProduto >= 500 e mediaProduto < 100 e precoAtual >= 30 e precoAtual < 80) entao
+        #aummentar em 15%
+        novoPreco = precoAtua * 1,15;
+        mostrar ('o Produto deve receber um aumento de 15% e ter seu preço atualizado para {novoPreco}R$');
+    senãose (mediaProduto >= 1000 e precoAtual >= 80) entao
+        # Reduzir em 5%
+        novoPreco = precoAtua * 0,95;
+        mostrar ('o Produto deve receber um desconto de 5% e ter seu preço atualizado para {novoPreco}R$');
+    senão
+        # igual preço atual
+        novoPreco = precoAtua;
+        mostrar ('o Produto não deve receber nenhum reajuste e manter seu preço em {novoPreco}R$');
+    fimse
+
+
+FIM

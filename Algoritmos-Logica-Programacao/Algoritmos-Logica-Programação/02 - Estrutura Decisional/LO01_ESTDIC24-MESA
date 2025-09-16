@@ -1,0 +1,13 @@
+TESTE DE MESA
+
+Variáveis
+num = 6, 4, 9, 7
+
+Massa de dados
+6, 4, 9, 7
+
+Saídas
+O número 6 tem divisibilidade por 2 e por 3
+O número 4 tem divisibilidade apenas por 2
+O número 9 tem divisibilidade apenas por 3
+(nenhuma saída para 7, pois não é divisível por 2 nem por 3)

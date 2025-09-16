@@ -1,0 +1,36 @@
+Algoritmo LO01_ESTREP38
+// Calcule a quantidade de grãos contidos em um tabuleiro de xadrez onde: 
+// Casa:  1 2 3 4 ... 64 
+// Qdte: 1 2 4 8 ... N
+
+Declarar
+    num, maior, menor, i: inteiro;
+Inicio
+    i = 0;
+    Ler num;
+    Enquanto (num <= 0) faça
+        Ler num;
+    FimEnquanto
+
+    maior = num;
+    menor = num;
+
+    Enquanto (i < 99) faça
+        Ler num;
+        Enquanto (num <= 0) faça
+            Ler num;
+        FimEnquanto
+
+        Se (num > maior) então
+            maior = num;
+        FimSe
+
+        Se (num < menor) então
+            menor = num;
+        FimSe
+
+        i = i + 1;
+    FimEnquanto
+
+    Mostrar "O maior número é ", maior, " e o menor número é ", menor;
+Fim

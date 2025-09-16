@@ -1,0 +1,17 @@
+Declarar
+    numerador, denominador, numeradorLimite: inteiro;
+    soma: real;
+Inicio
+    numerador = 1;
+    denominador = 1;
+    numeradorLimite = 50;
+    soma = 0;
+
+    Enquanto (numerador <= numeradorLimite) faça
+        soma = soma + (numerador / denominador);
+        numerador = numerador + 1;
+        denominador = denominador + 2;
+    FimEnquanto
+
+    Mostrar "O resultado da série 1 + 2/3 + 3/5 + ... + 50/99 é: ", soma;
+Fim

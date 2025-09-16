@@ -1,0 +1,14 @@
+Declarar
+    numUm, numDois, result: int;
+Inicio
+    Ler numUm;
+    Ler numDois;
+
+    Se (numUm > numDois) então
+        result = (numUm - numDois);
+        Mostrar result;
+    Senão
+        result = (numDois - numUm);
+        Mostrar result;
+    FimSe
+Fim

@@ -1,0 +1,20 @@
+TESTE DE MESA
+
+Variáveis: float
+precoAtual = 20, 50, 100, 40
+mediaProduto = 400, 800, 1500, 200
+
+novoPreco = 22.0, 57.5, 95.0, 40.0
+
+Massa de dados (entradas estratégicas para cobrir todos os caminhos)
+(20, 400), (50, 800), (100, 1500), (40, 200)
+
+Saídas
+
+Produto deve receber um aumento de 10% e ter seu preço atualizado para 22.0R$
+
+Produto deve receber um aumento de 15% e ter seu preço atualizado para 57.5R$
+
+Produto deve receber um desconto de 5% e ter seu preço atualizado para 95.0R$
+
+Produto não deve receber nenhum reajuste e deve manter seu preço em 40.0R$

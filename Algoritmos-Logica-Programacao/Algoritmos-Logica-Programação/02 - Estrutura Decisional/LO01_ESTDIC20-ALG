@@ -1,0 +1,12 @@
+Declarar
+    numUm, numDois: real;
+Inicio
+    Ler numUm;
+    Ler numDois;
+
+    Se (numUm > numDois) então
+        Mostrar numUm, " é maior que o número ", numDois;
+    Senão
+        Mostrar numDois, " é maior que o número ", numUm;
+    FimSe
+Fim

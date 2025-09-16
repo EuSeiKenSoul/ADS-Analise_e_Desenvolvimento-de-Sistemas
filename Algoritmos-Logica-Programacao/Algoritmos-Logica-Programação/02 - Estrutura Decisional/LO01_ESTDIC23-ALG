@@ -1,0 +1,26 @@
+Declarar
+    numUm, numDois, numTres, numQuatro: inteiro;
+Inicio
+    Ler numUm;
+    Ler numDois;
+    Enquanto (numDois <= numUm) faça
+        Ler numDois;
+    FimEnquanto
+
+    Ler numTres;
+    Enquanto (numTres <= numDois) faça
+        Ler numTres;
+    FimEnquanto
+
+    Ler numQuatro;
+
+    Se (numQuatro < numUm) então
+        Mostrar numQuatro, ", ", numUm, ", ", numDois, ", ", numTres;
+    SenãoSe (numQuatro > numUm e numQuatro < numDois) então
+        Mostrar numUm, ", ", numQuatro, ", ", numDois, ", ", numTres;
+    SenãoSe (numQuatro > numDois e numQuatro < numTres) então
+        Mostrar numUm, ", ", numDois, ", ", numQuatro, ", ", numTres;
+    Senão
+        Mostrar numUm, ", ", numDois, ", ", numTres, ", ", numQuatro;
+    FimSe
+Fim

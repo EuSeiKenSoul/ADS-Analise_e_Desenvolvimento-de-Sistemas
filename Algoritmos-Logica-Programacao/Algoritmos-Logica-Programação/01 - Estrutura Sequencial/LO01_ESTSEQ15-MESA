@@ -1,0 +1,14 @@
+TESTE DE MESA
+
+Variáveis: float
+catetoUm = 3.0, 5.0, 8.0
+catetoDois = 4.0, 12.0, 15.0
+hipotenusa = 5.0, 13.0, 17.0
+
+Massa de dados
+(3.0, 4.0), (5.0, 12.0), (8.0, 15.0)
+
+Saídas
+O valor da hipotenusa é 5.0
+O valor da hipotenusa é 13.0
+O valor da hipotenusa é 17.0

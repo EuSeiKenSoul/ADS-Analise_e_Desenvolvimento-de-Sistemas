@@ -1,0 +1,18 @@
+Declarar
+    notaUm, notaDois, notaTres, notaQuatro, media: real;
+Inicio
+    Ler notaUm;
+    Ler notaDois;
+    Ler notaTres;
+    Ler notaQuatro;
+
+    media = (notaUm + notaDois + notaTres + notaQuatro) / 4;
+
+    Se (media >= 6) então
+        Mostrar "A Média é ", media, " portanto o aluno está APROVADO!";
+    SenãoSe (media >= 3 e media < 6) então
+        Mostrar "A Média é ", media, " portanto o aluno precisa fazer EXAME!";
+    Senão
+        Mostrar "A Média é ", media, " portanto o aluno foi RETIDO!";
+    FimSe
+Fim

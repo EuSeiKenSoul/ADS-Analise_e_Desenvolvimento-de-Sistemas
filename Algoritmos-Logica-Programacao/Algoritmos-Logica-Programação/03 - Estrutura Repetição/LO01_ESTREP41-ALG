@@ -1,0 +1,14 @@
+Declarar
+    dadosLados, resultadosProcurado, i, j: inteiro;
+Inicio
+    dadosLados = 6;
+    resultadosProcurado = 7;
+
+    Para i de 1 até dadosLados faça
+        Para j de 1 até dadosLados faça
+            Se (i + j = resultadosProcurado) então
+                Mostrar "(", i, ",", j, ")";
+            FimSe
+        FimPara
+    FimPara
+Fim

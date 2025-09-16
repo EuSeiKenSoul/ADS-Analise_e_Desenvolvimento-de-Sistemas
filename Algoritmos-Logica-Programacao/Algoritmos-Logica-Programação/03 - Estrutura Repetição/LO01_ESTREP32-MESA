@@ -1,0 +1,14 @@
+Teste de Mesa
+
+numA    |1|3|5  |10
+fatoA   |1|6|120|3628800
+fatoAbk |1|3|5  |10
+
+massa de dados
+1,3,5,10
+
+Saida
+O fatorial de 1 é igual a 1
+O fatorial de 3 é igual a 6
+O fatorial de 5 é igual a 120
+O fatorial de 10 é igual a 3628800

@@ -1,0 +1,20 @@
+Declarar
+    horasTrabalhadas, valorPorHora, percentualDesconto, salarioBruto, desconto, salarioLiquido: real;
+    numeroDependentes: inteiro;
+
+Funcao Calculo_Salario_a_Receber()
+Inicio
+    salarioBruto = horasTrabalhadas * valorPorHora;
+    desconto = (salarioBruto * percentualDesconto) / 100;
+    salarioLiquido = (salarioBruto - desconto) + (numeroDependentes * 100);
+    Mostrar "O Salário a receber é R$ ", salarioLiquido;
+FimFuncao
+
+Inicio
+    Ler horasTrabalhadas;
+    Ler valorPorHora;
+    Ler percentualDesconto;
+    Ler numeroDependentes;
+
+    Calculo_Salario_a_Receber();
+Fim

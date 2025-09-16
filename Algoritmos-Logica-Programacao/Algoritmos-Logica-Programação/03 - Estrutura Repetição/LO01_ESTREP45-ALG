@@ -1,0 +1,23 @@
+Declarar
+    numerador, denominador, numeradorLimite, i: inteiro;
+    soma: real;
+Inicio
+    numerador = 1;
+    denominador = 1;
+    numeradorLimite = 15;
+    soma = 0;
+    i = numerador;
+
+    Enquanto (i <= numeradorLimite) faça
+        Se (i % 2 = 0) então
+            soma = soma - (i / (denominador * denominador));
+        Senão
+            soma = soma + (i / (denominador * denominador));
+        FimSe
+        numerador = numerador + 1;
+        denominador = denominador + 1;
+        i = i + 1;
+    FimEnquanto
+
+    Mostrar "O resultado da série é: ", soma;
+Fim

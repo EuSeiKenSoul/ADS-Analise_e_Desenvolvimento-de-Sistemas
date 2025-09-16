@@ -1,0 +1,34 @@
+Declarar
+    horaIni, minutoIni, horaFim, minutoFim, horajogo, minJogo:int;
+Inicio
+    Ler horaIni;
+    Ler minutoIni;
+    Ler horaFim;
+    Ler minutoFim;
+    //inicialmente quero verificar se hora final é menor que hora inicial, com isso posso verificar se o jogo foi até o dia seguinte, se jogo foi até o dia seguinte a forma como posso calcular as horas podem mudar.
+
+    //Resolução de problemas
+
+    Se horaFIm < horaIni então
+        horaJogo = (24 - horaIni)+horaFim;
+        Se (minutoIni == minutoFim) então
+            minutoJogo = 0;
+            senãose (minutoIni < minutoFim):
+                minutoJogo = minutoFim - minutoIni;
+            senão
+                minutoJogo = (60 - minutosIni)+minutoFim;
+        fimse
+    senão
+        
+        horaJogo = horaFim-horaIni;
+        minutoJogo = minutoFim-minutosIni;
+    FimSe
+    Enquanto minutoJogo >= 60 então
+        horaJogo = horaJogo + 1;
+        minutoJogo = minutoJogo - 60;
+    FimEnquanto.
+    // apresentação de resultados
+
+    Mostra ('O Jogo durou {horaJogo} e (minutoJogo) minutos');
+
+}Fim

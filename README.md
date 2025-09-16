@@ -24,8 +24,13 @@ Os arquivos seguem uma padronização para facilitar a organização e o entendi
 **Exemplo:** `LO01_ESTSEQ01`  
 
 - **LO01** → Lote de Exercícios 01  
-- **ESTSEQ** → Estrutura Sequencial  
-- **01** → Exercício 01  
+- **EST** → Estrutura  
+- **SEQ** → Sequencial  
+- **DIC** → Decisional  
+- **01** → Exercício 01
+- **ALG** → Algoritmo
+- **MESA** → Teste de Mesa
+  
 
 ---
 
@@ -42,16 +47,30 @@ Os arquivos seguem uma padronização para facilitar a organização e o entendi
 - **Python** 🐍  
 - **Draw.io** para fluxogramas  
 - **Git & GitHub** para versionamento de código  
-- Conceitos de **lógica de programação** e **algoritmos**  
+- Conceitos de **lógica de programação**, **algoritmos**, **estruturas sequenciais** e **decisões condicionais**  
+
+---
+
+## ✅ Conhecimento Atual  
+
+- [x] Estruturas sequenciais: entrada, processamento e saída de dados  
+- [x] Estruturas decisionais: `if`, `if-else`, `if-elif-else`  
+- [x] Operadores lógicos e relacionais  
+- [x] Testes de mesa e fluxogramas  
 
 ---
 
 ## 🚀 Próximos Passos  
 
-- [ ] Ampliar o repositório com novos exercícios e projetos.  
-- [ ] Explorar estruturas de decisão, repetição e funções em Python.  
-- [ ] Criar pequenos projetos aplicando lógica de programação.  
-- [ ] Evoluir para desenvolvimento **web** e **mobile** futuramente.  
+- [ ] Explorar **repetições (loops)**: `for` e `while`  
+- [ ] Criar funções e modularizar código  
+- [ ] Trabalhar com **listas, tuplas e dicionários**  
+- [ ] Manipulação de **arquivos (leitura e escrita)**  
+- [ ] Aprender **tratamento de erros (try/except)**  
+- [ ] Projetos pequenos para consolidar lógica de programação  
+- [ ] Explorar desenvolvimento **web** com Python (Flask/Django)  
+- [ ] Aprender desenvolvimento de **aplicativos mobile** com Python (Kivy, BeeWare)  
+- [ ] Iniciar estudo de **bancos de dados** e integração com Python  
 
 ---
 
@@ -59,9 +78,9 @@ Os arquivos seguem uma padronização para facilitar a organização e o entendi
 
 Se você chegou até aqui, ficarei feliz em trocar ideias e aprender junto com você:  
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/diego-miranda-code/)
-- 📧 E-mail: diegomirandasilva5725@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/diego-miranda-code/)  
+- 📧 E-mail: diegomirandasilva5725@gmail.com  
 
 ---
 
-> "Cada linha de código é um passo em direção ao meu futuro como programador." ✨  
+> "Cada linha de código é um passo em direção ao meu futuro como programador." ✨

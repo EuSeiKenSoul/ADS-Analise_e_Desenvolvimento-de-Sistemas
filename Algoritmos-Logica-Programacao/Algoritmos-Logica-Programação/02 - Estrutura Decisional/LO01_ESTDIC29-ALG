@@ -1,0 +1,20 @@
+#LO01_ESTDIC28
+#Receba o tipo de investimento (1 = poupança e 2 = renda fixa) e o valor do investimento. Calcule e mostre o valor corrigido em 30 dias sabendo que a poupança = 3% e a renda fixa = 5%. Demais tipos não serão considerados. 
+
+Declarar
+    opSelection, valorInvestido, valorRendimento valorCorrigido : real;
+INICIO
+    Ler opSelection;
+    Ler valorInvestido;
+    se (opSelection == 1) então
+        valorRendimento = 1,03;
+        valorCorrigido = valorInvestido * valorRendimento;
+        Mostrar('O valor corrigido do investimento em poupança é R$ {valorCorrigido}')
+    senãose (opSelection == 2) então
+        valorRendimento = 1,05;
+        valorCorrigido = valorInvestido * valorRendimento;
+        Mostrar('O valor corrigido do investimento em renda fixa é R$ {valorCorrigido}')
+    senão
+        Mostrar ('Opção inválido!');
+    fimse
+FIM

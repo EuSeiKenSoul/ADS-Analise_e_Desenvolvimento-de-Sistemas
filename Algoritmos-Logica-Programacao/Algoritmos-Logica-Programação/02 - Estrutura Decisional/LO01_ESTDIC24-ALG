@@ -1,0 +1,13 @@
+Declarar
+    num: inteiro;
+Inicio
+    Ler num;
+
+    Se (num % 2 = 0 e num % 3 = 0) então
+        Mostrar "O número ", num, " tem divisibilidade por 2 e por 3";
+    SenãoSe (num % 2 = 0) então
+        Mostrar "O número ", num, " tem divisibilidade apenas por 2";
+    SenãoSe (num % 3 = 0) então
+        Mostrar "O número ", num, " tem divisibilidade apenas por 3";
+    FimSe
+Fim

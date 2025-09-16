@@ -1,0 +1,20 @@
+TESTE DE MESA
+
+Variáveis: int
+opSelection = 1, 2, 3
+
+Variáveis: float
+valorInvestido = 1000.0, 2000.0, 1500.0
+valorRendimento = 1.03, 1.05
+valorCorrigido = 1030.0, 2100.0
+
+Massa de dados (entradas estratégicas)
+(1, 1000.0), (2, 2000.0), (3, 1500.0)
+
+Saídas
+
+O valor corrigido do investimento em poupança é R$ 1030.00
+
+O valor corrigido do investimento em renda fixa é R$ 2100.00
+
+Tipo de investimento inválido!

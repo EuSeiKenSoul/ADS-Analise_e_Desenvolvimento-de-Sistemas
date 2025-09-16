@@ -1,0 +1,20 @@
+Declarar
+    numN, i, fibo1, fibo2, proximoTermo: inteiro;
+Inicio
+    Ler numN;
+    Enquanto (numN <= 0) faça
+        Ler numN;
+    FimEnquanto
+
+    fibo1 = 0;
+    fibo2 = 1;
+    i = 0;
+
+    Enquanto (i < numN) faça
+        Mostrar fibo1;
+        proximoTermo = fibo1 + fibo2;
+        fibo1 = fibo2;
+        fibo2 = proximoTermo;
+        i = i + 1;
+    FimEnquanto
+Fim

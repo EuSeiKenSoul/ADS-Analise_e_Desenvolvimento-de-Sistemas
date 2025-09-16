@@ -1,0 +1,26 @@
+Declarar
+    numA, numB, maior, menor, i, soma: inteiro;
+Inicio
+    Ler numA;
+    Ler numB;
+
+    Se (numA > numB) então
+        maior = numA;
+        menor = numB;
+    Senão
+        maior = numB;
+        menor = numA;
+    FimSe
+
+    soma = 0;
+    i = menor;
+
+    Enquanto (i <= maior) faça
+        Se (i % 2 != 0) então
+            soma = soma + i;
+        FimSe
+        i = i + 1;
+    FimEnquanto
+
+    Mostrar "O número maior é ", maior, " e a soma dos números ímpares entre ", menor, " e ", maior, " é: ", soma;
+Fim

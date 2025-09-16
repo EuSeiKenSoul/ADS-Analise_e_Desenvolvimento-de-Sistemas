@@ -1,0 +1,18 @@
+Teste de Mesa
+
+numA    |0|2    |5      |8
+resultA |-|1.5  |2.2833 |2.7179
+
+Massa de dados
+
+0, 2, 5, 8
+
+Saídas
+
+Entrada 0 → inválida → o programa pede novamente até que seja digitado um valor positivo.
+
+Entrada 2 → O resultado da série é: 1.5
+
+Entrada 5 → O resultado da série é: 2.283333333333333
+
+Entrada 8 → O resultado da série é: 2.7178571428571425

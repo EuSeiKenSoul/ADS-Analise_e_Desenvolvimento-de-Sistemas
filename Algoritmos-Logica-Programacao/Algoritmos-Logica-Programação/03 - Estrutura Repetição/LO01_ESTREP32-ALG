@@ -1,0 +1,14 @@
+Algoritmo
+
+DECLARAR
+    numA, fatoA: int;
+INICIO
+    LER numA;
+    fatoAbk=numA;
+    fatoA = numA;
+    ENQUANTO (numA != 1) FAÇA
+        numA = numA-1;
+        fatoA = fatoA X numA;
+    FIM_ENQUANTO
+    ESCREVER('o fator de' {fatoAbk}' é igual a'{fatoA});
+FIM

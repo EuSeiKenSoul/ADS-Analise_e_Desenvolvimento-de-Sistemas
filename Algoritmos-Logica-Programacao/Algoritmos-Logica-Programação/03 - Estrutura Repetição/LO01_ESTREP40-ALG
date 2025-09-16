@@ -1,0 +1,47 @@
+Declarar
+    numA, numB, numMaior, numMenor, i, j, somaprimos: inteiro;
+    ehPrimo: lógico;
+Inicio
+    Ler numA;
+    Enquanto (numA <= 0) faça
+        Ler numA;
+    FimEnquanto
+
+    Ler numB;
+    Enquanto (numB <= 0) faça
+        Ler numB;
+    FimEnquanto
+
+    Se (numA > numB) então
+        numMaior = numA;
+        numMenor = numB;
+    Senão
+        numMaior = numB;
+        numMenor = numA;
+    FimSe
+
+    somaprimos = 0;
+    i = numMenor;
+
+    Enquanto (i <= numMaior) faça
+        Se (i > 1) então
+            j = 2;
+            ehPrimo = verdadeiro;
+
+            Enquanto (j <= i // 2) Faça
+                Se (i % j = 0) então
+                    ehPrimo = falso;
+                    Pare;
+                FimSe
+                j = j + 1;
+            FimEnquanto
+
+            Se (ehPrimo) então
+                Mostrar i;
+                somaprimos = somaprimos + i;
+            FimSe
+        FimSe
+        i = i + 1;
+    FimEnquanto
+
+Fim

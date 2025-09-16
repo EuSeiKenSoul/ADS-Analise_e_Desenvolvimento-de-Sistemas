@@ -1,0 +1,9 @@
+Declar
+    catetoUm, catetoDois, hipotenusa: real;
+INICIO
+    Ler catetoUm;
+    Ler catetoDois;
+    hipotenusa= ((catetoUm**2)+(catetoDois**2))**0.5;
+    Mostrar ('A hipotenusa é {hipotenusa}')
+
+FIM
