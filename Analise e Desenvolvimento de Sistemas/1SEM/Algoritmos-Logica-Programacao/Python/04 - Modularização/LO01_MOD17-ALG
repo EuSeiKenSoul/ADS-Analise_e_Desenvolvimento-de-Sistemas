@@ -1,0 +1,16 @@
+Declarar
+    tempoPercurso, velocidadeMedia, distancia, litrosGastos: real;
+
+Funcao calculo_gasto_combustivel()
+Inicio
+    distancia = tempoPercurso * velocidadeMedia;
+    litrosGastos = distancia / 12;
+    Mostrar "A quantidade de litros gastos na viagem é de ", litrosGastos, " litros";
+FimFuncao
+
+Inicio
+    Ler tempoPercurso;
+    Ler velocidadeMedia;
+
+    calculo_gasto_combustivel();
+Fim
